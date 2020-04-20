@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlphaWeb</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./index.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-default fixed-top">
+      <a class="navbar-brand" href="#">AlphaWeb</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active mx-3 my-3">
+            <a class="nav-link" href="#firstImg"
+              >Best Seller <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mx-3 my-3">
+            <a class="nav-link" href="#secondImg">Our Brands</a>
+          </li>
+          <li class="nav-item mx-3 my-3">
+            <a class="nav-link" href="#thirdImg">About Us</a>
+          </li>
+          <li class="nav-item mx-3 my-3">
+            <a
+              class="nav-link"
+              href="#footer1"
+              tabindex="-1"
+              aria-disabled="true"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="image-fluid" id="firstImg"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center my-3" id="bestSeller">
+          <h2>Best Seller</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3 forHover">
+          <img
+            class="image-fluid image1"
+            src="./img/product1.png"
+            alt="product1"
+          />
+          <div class="text1">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h6>PRICE: 99.95$</h6>
+          </div>
+        </div>
+        <div class="col-md-3 forHover">
+          <img
+            class="image-fluid image1"
+            src="./img/product2.png"
+            alt="product1"
+          />
+          <div class="text1">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h6>PRICE: 99.95$</h6>
+          </div>
+        </div>
+        <div class="col-md-3 forHover">
+          <img
+            class="image-fluid image1"
+            src="./img/product1.png"
+            alt="product1"
+          />
+          <div class="text1">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h6>PRICE: 99.95$</h6>
+          </div>
+        </div>
+        <div class="col-md-3 forHover">
+          <img
+            class="image-fluid image1"
+            src="./img/product4.png"
+            alt="product1"
+          />
+          <div class="text1">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h6>PRICE: 99.95$</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-12">
+          <button class="btn btn-primary btn-lg mb-3 mt-3">OUR PRODUCTS</button>
+        </div>
+      </div>
+    </div>
+    <div class="image-fluid" id="secondImg"></div>
+    <div class="container">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide my-3 p-3"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <img
+                class="d-block w-100 image-fluid col-md-3"
+                src="./img/motag.png"
+                alt="First slide"
+              />
+              <div class="col-md-9 text-center">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores, amet aut voluptas dolorum molestias error aliquid
+                  molestiae quod, minima unde quam incidunt nisi excepturi
+                  quasi, debitis ut! Aliquam, voluptatibus. Eos?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <img
+                class="d-block w-100 image-fluid col-md-3"
+                src="./img/motag.png"
+                alt="First slide"
+              />
+              <div class="col-md-9 text-center">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorum reiciendis rerum odio nobis, suscipit laboriosam
+                  quaerat recusandae modi consectetur distinctio quas. Quibusdam
+                  odio doloribus asperiores non dignissimos hic laudantium
+                  error.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <img
+                class="d-block w-100 image-fluid col-md-3"
+                src="./img/motag.png"
+                alt="First slide"
+              />
+              <div class="col-md-9 text-center">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente vel alias rem? Pariatur similique nobis incidunt
+                  eveniet ducimus ipsam earum animi labore quia. Quia placeat
+                  eveniet cupiditate inventore ut et!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
+      </div>
+    </div>
+    <div class="image-fluid" id="thirdImg"></div>
+    <div class="container p-3 m-3">
+      <div class="row" id="aboutUs">
+        <div class="col-md-4">
+          <h3>About Us</h3>
+          <p class="paragraph1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quia
+            quibusdam iste voluptates maiores accusamus atque saepe illum.
+          </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, qui quasi exercitationem autem soluta enim rerum
+            adipisci facilis porro sequi architecto, doloremque iste recusandae
+            voluptate dolorum, impedit nostrum itaque. Mollitia! Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Inventore, voluptatum
+            dolor! Quam voluptatibus, nostrum quisquam voluptas, consectetur
+            deleniti nemo quis dolorem similique commodi vel nobis nisi ipsum
+            reprehenderit debitis repudiandae.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center" id="footer1">
+      <h6>2020 Made by Johnny Azulay</h6>
+      <div class="row my-3">
+        <div class="col-md-4">
+          <a href="https://www.facebook.com/johnny065"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.linkedin.com/in/johnny-azulay-19002119a/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
